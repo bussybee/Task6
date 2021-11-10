@@ -8,14 +8,14 @@ public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.ROOT);
 
-        double x = readNum("Input x: ");
-        double n = readNum("Input n: ");
-        double e = readNum("Input e: ");
+        double x = readNumber("Input x: ");
+        double n = readNumber("Input n: ");
+        double e = readNumber("Input e: ");
 
         printResults(n, e, x);
     }
 
-    private static double readNum(String text) {
+    private static double readNumber(String text) {
         Scanner scanner = new Scanner(System.in);
         System.out.print(text);
         return scanner.nextDouble();
