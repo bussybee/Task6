@@ -14,7 +14,7 @@ public class Main {
 
         double sumOfSequence = calculateFirstSum(n, x);
         double sumOfSequenceMoreThanEpsilon = calculateSecondAndThirdSum(x, n, e);
-        double sumOfSequenceMoreThanEpsilonDividedByTen = calculateSecondAndThirdSum(x, n, e/10);
+        double sumOfSequenceMoreThanEpsilonDividedByTen = calculateSecondAndThirdSum(x, n, e / 10);
         double valueOfFunction = calculateFunction(x);
 
         printResults(n, e, sumOfSequenceMoreThanEpsilon, sumOfSequence, sumOfSequenceMoreThanEpsilonDividedByTen, valueOfFunction);
